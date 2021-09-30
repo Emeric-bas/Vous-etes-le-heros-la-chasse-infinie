@@ -1,0 +1,22 @@
+body {
+    background-color: #2B2D42;
+    display: flex;
+}
+div {
+    background-color: #4C060E;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img {
+    width: 400px;
+    height: 300px;
+}
+button {
+   align-items: center;
+   color: #8D99AE;
+}
+
+
