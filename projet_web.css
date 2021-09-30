@@ -1,22 +1,36 @@
+*{box-sizing: border-box;}
 body {
     background-color: #2B2D42;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Libre Baskerville', serif;
 }
-div {
-    background-color: #4C060E;
-    width: 500px;
-    height: 500px;
+.game {
+    background-color: #8D99AE;
+    width: 550px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 }
 img {
-    width: 400px;
+    width: 500px;
     height: 300px;
 }
-button {
-   align-items: center;
-   color: #8D99AE;
+.options {
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
+button {
+   background-color: #4C060E;
+}
+p{
+    text-align: center;
+}
+
 
 
